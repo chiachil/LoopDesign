@@ -271,6 +271,11 @@ h3 {
   padding-bottom: 21px;
 }
 
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .py-40 {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -337,6 +342,10 @@ h3 {
 
 .mt-30 {
   margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 .mb-3 {
@@ -469,6 +478,11 @@ h3 {
 
 .bg-img-c {
   background-position: center;
+}
+
+.center {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .bg-color-dark {
@@ -622,9 +636,9 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -635,11 +649,12 @@ h3 {
 }
 
 .col1 {
-  width: 43%;
+  width: 50%;
+  padding-right: 10px;
 }
 
 .col2 {
-  width: 43%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -656,6 +671,7 @@ h3 {
 }
 
 iframe {
+  padding-right: 30px;
   height: 200px;
 }
 
@@ -718,6 +734,12 @@ form textarea {
   transition: 0.2s;
 }
 
+.filter .active {
+  background-color: #333333;
+  color: #f5f5f5;
+  border-color: #333333;
+}
+
 .project-wall {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -732,6 +754,8 @@ form textarea {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 .project-wall .item {
@@ -771,5 +795,41 @@ form textarea {
   opacity: 100%;
   -webkit-transition: 0.8s;
   transition: 0.8s;
+}
+
+.page-project .item {
+  margin-bottom: 8px;
+}
+
+.page-project .item img {
+  width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.back li a {
+  background-color: #333333;
+  color: #f5f5f5;
+  border-color: #333333;
+  font-size: 13px;
+  border-radius: 4px;
+  padding: 8px 36px;
+  letter-spacing: 2px;
+}
+
+.back li a:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 /*# sourceMappingURL=all.css.map */
