@@ -23,7 +23,7 @@
 <body>
     <div class="wrapper">
         <div class="header px-30 py-10 bg-color-dark">
-            <a href="index.html" class="logo d-block mb-60 mt-30">回映設計</a>
+            <a href="index.html" class="logo d-block mb-60 mt-30"><img src="images/Logo/logo.png"></a>
             <ul class="nav">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT US</a></li>
@@ -42,11 +42,41 @@
                 <p class="fz-13">© 2021 Loop Design Ltd.</a></p>
             </div>
         </div>
+        <!-- m-header-->
+        <div class="topnav">
+            <div>
+                <a href="index.html" class="m-logo"><img src="images/Logo/logo.png" alt="Logo"></a>
+            </div>
+            <!-- Navigation links (hidden by default) -->
+            
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <ul class="m-nav">
+            <li class="blocks"><a href="index.html">HOME</a></li>
+            <li class="blocks"><a href="about.html">ABOUT US</a></li>
+            <li class="blocks"><a href="#" class="accordion">PROJECTS<i class="fas fa-plus fa-xs"></i></a></li>
+            <div class="m-panel blocks">
+                <li><a href="architecture.html">Architecture</a></li>
+                <li><a href="interior.html">Interior</a></li>
+                <li class="mb-8"><a href="CGI.html">CGI</a></li>
+            </div>
+            <li class="blocks"><a href="contact.html">CONTACT</a></li>
+            <div class="d-flex blocks socials">
+                <li><a href="#" target="_blank"><i class="fab fa-facebook fa-2x"></i></a><li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-pinterest fa-2x"></i></a></li>
+            </div>  
+        </ul>
         <div class="main min-h bg-color-light">
             <div class="container pt-30">
                 <h2 class="mb-80">CONTACT</h2>
-                <div class="row1">
-                    <div class="col1 px-60">
+                <div class="row2">
+                    <div class="col3">
                         <h3 class="txt-c">回映室內裝修有限公司</h3><br>
                         <p class="mb-60">
                             <i class="mr-11 fas fa-user-alt"></i>吳先生&nbsp;&nbsp;0916-522-272<br>
@@ -58,7 +88,7 @@
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.1532482089647!2d121.52910131498764!3d25.028872844650888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a983fffdf9df%3A0x9267082f259a3edc!2zMTA2LCBUYWlwZWkgQ2l0eSwgRGHigJlhbiBEaXN0cmljdCwgTGFuZSA3NSwgWW9uZ2thbmcgU3RyZWV0LCAyMuiZnzLmqJM!5e0!3m2!1sen!2stw!4v1625810971633!5m2!1sen!2stw"
                             style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
-                    <div class="col2 px-60">
+                    <div class="col4">
                         <h3>聯絡表單</h3>
                         <form class="fz-14" id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
                             action="https://formspree.io/f/xeqvobdp" method="post">

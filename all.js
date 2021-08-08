@@ -23,6 +23,23 @@ for (i = 0; i < accordion.length; i++) {
     });
 }
 
+let x = document.querySelector(".m-nav");
+let m_panel = document.querySelector(".m-panel");
+//mobile-header
+function myFunction() {
+    
+    if (x.style.height === "0px") {
+        x.style.height = "auto";
+    } else {
+        x.style.height = "0px";
+    }
+    if (m_panel.style.height === "0px") {
+        m_panel.style.height = "auto";
+    } else {
+        m_panel.style.height = "0px";
+    }
+}
+
 
 
 // for (let i = 0; i < item.length; i++) {

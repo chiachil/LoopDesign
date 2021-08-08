@@ -24,7 +24,7 @@
 <body>
     <div class="wrapper">
         <div class="header px-30 py-10 bg-color-dark">
-            <a href="index.html" class="logo d-block mb-60 mt-30">回映設計</a>
+            <a href="index.html" class="logo d-block mb-60 mt-30"><img src="images/Logo/logo.png"></a>
             <ul class="nav">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT US</a></li>
@@ -43,12 +43,46 @@
                 <p class="fz-13">© 2021 Loop Design Ltd.</a></p>
             </div>
         </div>
+       <!-- m-header-->
+       <div class="topnav">
+        <div>
+            <a href="index.html" class="m-logo"><img src="images/Logo/logo.png" alt="Logo"></a>
+        </div>
+        <!-- Navigation links (hidden by default) -->
+        
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <ul class="m-nav">
+        <li class="blocks"><a href="index.html">HOME</a></li>
+        <li class="blocks"><a href="about.html">ABOUT US</a></li>
+        <li class="blocks"><a href="#" class="accordion">PROJECTS<i class="fas fa-plus fa-xs"></i></a></li>
+        <div class="m-panel blocks">
+            <li><a href="architecture.html">Architecture</a></li>
+            <li><a href="interior.html">Interior</a></li>
+            <li class="mb-8"><a href="CGI.html">CGI</a></li>
+        </div>
+        <li class="blocks"><a href="contact.html">CONTACT</a></li>
+        <div class="d-flex blocks socials">
+            <li><a href="#" target="_blank"><i class="fab fa-facebook fa-2x"></i></a><li>
+            <li><a href="#" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-pinterest fa-2x"></i></a></li>
+        </div>  
+    </ul>
         <ul class="slides min-h bg-color-dark">
-            <li><a><img src="images/Architecture/建築01新北林口-宏樸建設-CASA2住宅立面/02OK.jpg" alt="建築設計作品" /></a></li>
-            <li><a><img src="images/Interior/室內05台北北投-吳宅/03-L.jpg" alt="室內設計作品" /></a></li>
-            <li><a><img src="images/Interior/室內06台中南屯-周宅/2021.05.28 台中3D更新_210530_11.jpg" alt="室內設計作品" /></a></li>
-            <li><a><img src="images/CGI/渲染07彰化-淞雅設計-大員林住宅公設/1.jpg" alt="渲染設計作品" /></a></li>
-            <li><a><img src="images/CGI/渲染10桃園-淞雅設計-接待會館/1130.jpg" alt="渲染設計作品" /></a></li>
+
+
+            <li><a href="projects.html"><img src="images/Interior/室內01新北新莊-Doffee咖啡廳/7.JPG" alt="室內設計作品" /></a></li>
+            <li><a href="projects.html"><img src="images/Interior/室內02桃園八德-謝宅/客廳-完稿.png" alt="室內設計作品" /></a></li>
+            <li><a href="projects.html"><img src="images/Interior/室內04台北北投-吳宅/01-L.jpg" alt="室內設計作品" /></a></li>
+            <li><a href="projects.html"></a><img src="images/Interior/室內05台中南屯-周宅/2021.05.28 台中3D更新_210530_2.jpg"
+                    alt="室內設計作品" /></a></li>
+            <li><a href="projects.html"><img src="images/Architecture/建築01新北林口-宏樸建設-CASA2住宅立面/02OK.jpg"
+                        alt="建築設計作品" /></a></li>
         </ul>
     </div>
     <script src="all.js"></script>
