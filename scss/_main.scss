@@ -38,7 +38,7 @@
     display: none;
   }
   .logo img {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -162,6 +162,15 @@
   @include mobile {
     width: 100%;
     margin-top: 70px;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 70vh;
+      //width: 100%;
+      object-fit: contain;
+      padding: 0px 12px;
+    }
   }
   @include pad {
     width: 100%;
@@ -381,7 +390,7 @@ form {
     background-color: $color-dark;
     color: $color-light;
     border-color: $color-dark;
-    transition: 0.2s;
+    transition: 1s;
   }
   .active {
     background-color: $color-dark;
