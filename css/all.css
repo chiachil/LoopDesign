@@ -1164,7 +1164,8 @@ form textarea {
 }
 
 .page-project .item img {
-  width: 100%;
+  margin: 0 auto;
+  width: 70%;
   display: block;
   -o-object-fit: cover;
      object-fit: cover;

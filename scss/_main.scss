@@ -477,7 +477,8 @@ form {
       width: 100%;
     }
     img {
-      width: 100%;
+      margin: 0 auto;
+      width: 70%;
       display: block;
       object-fit: cover;
       @include mobile {
