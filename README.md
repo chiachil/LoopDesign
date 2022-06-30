@@ -2,7 +2,7 @@
 
 This is a static official website for Loop Design Interior Decoration Co. to display their works.
 
-## Tech Summary
+## Tech Stack
 1. Designed and developed Static Website by writing `HTML & CSS / SCSS + JS`
 2. Embedded `Google map` to display company’s location
 3. Integrated `Formspree API` to develop email contact form
